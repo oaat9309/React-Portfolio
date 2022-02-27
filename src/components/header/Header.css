@@ -1,6 +1,6 @@
 header {
-  height: 111vh;
-  padding-top: 7rem;
+  height: 100vh;
+  padding-top: 3rem;
   overflow: hidden;
 }
 
@@ -53,10 +53,30 @@ header {
 }
 
 /* ================= scroll down ================= */
+
 .scroll__down {
   position: absolute;
   right: -2.3rem;
   bottom: 5rem;
   font-weight: 200;
   font-size: 1.8rem;
+}
+
+/* ================= media query (medium) ================= */
+@media screen and (max-width: 1024px) {
+  .container {
+    height: 68vh;
+  }
+}
+
+/* ================= media query (small) ================= */
+@media screen and (max-width: 600px) {
+  .container {
+    height: 100vh;
+  }
+
+  .header__socials,
+  .scroll__down {
+    display: none;
+  }
 }
