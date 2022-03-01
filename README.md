@@ -8,8 +8,12 @@
 
 ## Assets
 
-- 현재 CV 파일, about component 프로필 사진, portfolio 이미지&링크 임시로 적용된 상태. 추후 수정 필요
+- 현재 CV 파일, about component 프로필 사진, portfolio 이미지&링크, contact option 임시로 적용된 상태. 추후 수정 필요
 
 ## React Hooks
 
 - Navbar active state 활용
+
+## EmailJS
+
+- Email Submission Form에 EmailJs 적용
